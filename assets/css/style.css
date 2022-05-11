@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(4,43,95);
+}
+.card{
+  background-color:rgb(4,57,114) ;
+  height: 650px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+.overview{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(1000px);
+  transition: all 0.5s ease-in-out;
+  overflow-y: auto;
+}
+.card:hover .overview{
+  transform: translateY(0);
+}
+.myimg{
+  height: 492px;
+}
+
+.heading h4{
+float: left;
+width: 240px;
+}
+.heading span{
+  float: right;
+  padding: 5px 8px;
+  background-color: rgba(0,0,0,0.568);
+}
+
+
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.yellow{
+  color:yellow;
+}
